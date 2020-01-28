@@ -1,3 +1,14 @@
+'''
+0,1,1,2,3,5...
+
+input: 3
+output: 1
+
+input: 5
+output: 3
+'''
+
+# O(n) time, O(1) space
 def getNthFib(n):
   fib1 = 0
   fib2 = 1
