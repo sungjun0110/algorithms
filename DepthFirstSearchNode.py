@@ -25,5 +25,4 @@ class Node:
     if len(self.children) > 0:
       for child in self.children:
         child.depthFirstSearch(array)
-		
-  return array
+    return array
