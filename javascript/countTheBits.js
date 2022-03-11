@@ -9,3 +9,5 @@ function countTheBits(num) {
     bits.forEach(bit => bit == '1'? numOfBits++ : bit);
     return numOfBits;
   }
+
+let a = [1, 2, 3]
