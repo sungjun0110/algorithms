@@ -25,3 +25,4 @@ var plusOne = function(digits) {
 };
 
 console.log(plusOne([8, 9, 9, 9]));
+// -> [9, 0, 0, 0]
