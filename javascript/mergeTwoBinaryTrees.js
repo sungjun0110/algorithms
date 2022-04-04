@@ -11,7 +11,7 @@
  * @param {TreeNode} root2
  * @return {TreeNode}
  */
- var mergeTrees = function(root1, root2) {
+var mergeTrees = function(root1, root2) {
     if (!root1 && !root2) 
         return null;
     if (!root2)
