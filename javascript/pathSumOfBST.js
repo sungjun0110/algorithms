@@ -11,6 +11,7 @@
  * @param {number} targetSum
  * @return {boolean}
  */
+// returns true if there is a root-to-leaf path such that sums all the values along the path equals targetSum
 var hasPathSum = function(root, targetSum) {
     if (!root) 
         return false
