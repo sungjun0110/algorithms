@@ -14,7 +14,7 @@ var isSubsequence = function(s, t) {
             tIdx ++;
     }
     
-    return sIdx >= s.length ? true : false;
+    return sIdx >= s.length;
 };
 
 // input s="abc", t="anbgdc"
